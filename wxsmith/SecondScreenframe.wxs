@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="SecondScreenFrame">
+		<size>42,25</size>
+		<id_arg>0</id_arg>
+		<style>wxCAPTION|wxFRAME_NO_TASKBAR|wxFRAME_SHAPED|wxBORDER_NONE</style>
+		<handler function="OnPaint" entry="EVT_PAINT" />
+		<handler function="OnEraseBackground" entry="EVT_ERASE_BACKGROUND" />
+	</object>
+</wxsmith>
